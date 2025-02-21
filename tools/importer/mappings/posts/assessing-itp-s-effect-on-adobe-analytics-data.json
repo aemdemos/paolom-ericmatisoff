@@ -1,0 +1,670 @@
+{
+  "url": "https://blog.ericmatisoff.com/posts/assessing-itp-s-effect-on-adobe-analytics-data",
+  "browserOptions": {
+    "width": 1280,
+    "disableJS": false,
+    "adBlocker": true,
+    "gdprBlocker": true,
+    "delay": 0,
+    "screenshot": false
+  },
+  "autoDetect": true,
+  "template": {
+    "raw": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/header[1]/h2[1]/a[1]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/header[1]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/h1[1]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[1]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[2]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[3]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[1]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[2]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[3]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[4]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[5]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/h3[1]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[6]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[7]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[8]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[1]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[10]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[11]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[12]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[13]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[2]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[15]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[3]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[18]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[4]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[19]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[20]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[5]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[22]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[6]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[25]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[26]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[7]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[27]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[8]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[30]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[9]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[32]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[10]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/h1[1]\n  /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[1]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[1]/h2[1]\n  - /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[1]/div[1]",
+    "hash": 1065439863
+  },
+  "pageHeight": 8933,
+  "mapping": [
+    {
+      "id": 2,
+      "path": "/posts/assessing-itp-s-effect-on-adobe-analytics-data",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-51766958",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1240,
+              "height": 40,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/header[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 20,
+              "y": 32,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-51766958"
+            },
+            {
+              "id": "box-id-170012460",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1240,
+              "height": 300,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/h1[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 20,
+              "y": 152,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-170012460"
+            },
+            {
+              "id": "box-id-913462984",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1240,
+              "height": 48,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 20,
+              "y": 500,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-913462984"
+            },
+            {
+              "id": "box-id-913463015",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1240,
+              "height": 620,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 20,
+              "y": 596,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-913463015"
+            },
+            {
+              "id": "box-id-913463046",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 28,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1280,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-913463046"
+            },
+            {
+              "id": "box-id--1202065887",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 117,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1332,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065887"
+            },
+            {
+              "id": "box-id--1202065856",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 87,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1473,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065856"
+            },
+            {
+              "id": "box-id--1202065825",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 87,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1584,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065825"
+            },
+            {
+              "id": "box-id--1202065794",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 58,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1696,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065794"
+            },
+            {
+              "id": "box-id--1202065763",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 58,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[5]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1779,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065763"
+            },
+            {
+              "id": "box-id-1382122450",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 66,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/h3[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1869,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1382122450"
+            },
+            {
+              "id": "box-id--1202065732",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 175,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 1959,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065732"
+            },
+            {
+              "id": "box-id--1202065701",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 117,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[7]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2159,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065701"
+            },
+            {
+              "id": "box-id--1202065670",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 87,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[8]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2300,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1202065670"
+            },
+            {
+              "id": "box-id-748251161",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 225,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2411,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251161"
+            },
+            {
+              "id": "box-id-1390661865",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 58,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[10]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2660,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390661865"
+            },
+            {
+              "id": "box-id-1390661896",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 29,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[11]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2743,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390661896"
+            },
+            {
+              "id": "box-id-1390661927",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 58,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[12]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2796,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390661927"
+            },
+            {
+              "id": "box-id-1390661958",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 146,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[13]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 2879,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390661958"
+            },
+            {
+              "id": "box-id-748251192",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 209,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[2]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 3049,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251192"
+            },
+            {
+              "id": "box-id-1390662020",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 117,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[15]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 3283,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390662020"
+            },
+            {
+              "id": "box-id-748251223",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 203,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[3]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 3424,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251223"
+            },
+            {
+              "id": "box-id-1390662113",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 175,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[18]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 3651,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390662113"
+            },
+            {
+              "id": "box-id-748251254",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 270,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[4]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 3851,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251254"
+            },
+            {
+              "id": "box-id-1390662144",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 29,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[19]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 4145,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-1390662144"
+            },
+            {
+              "id": "box-id-1390662826",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 321,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[20]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 4198,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390662826"
+            },
+            {
+              "id": "box-id-748251285",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 271,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[5]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 4544,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251285"
+            },
+            {
+              "id": "box-id-1390662888",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 87,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[22]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 4840,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390662888"
+            },
+            {
+              "id": "box-id-748251316",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 415,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[6]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 4951,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251316"
+            },
+            {
+              "id": "box-id-1390662981",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 234,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[25]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 5391,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390662981"
+            },
+            {
+              "id": "box-id-1390663012",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 29,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[26]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 5649,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-1390663012"
+            },
+            {
+              "id": "box-id-748251347",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 648,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[7]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 5702,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251347"
+            },
+            {
+              "id": "box-id-1390663043",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 117,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[27]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 6375,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390663043"
+            },
+            {
+              "id": "box-id-748251378",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 379,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[8]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 6516,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251378"
+            },
+            {
+              "id": "box-id-1390663787",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 234,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[30]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 6920,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390663787"
+            },
+            {
+              "id": "box-id-748251409",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 250,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[9]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 7178,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-748251409"
+            },
+            {
+              "id": "box-id-1390663849",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 117,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/p[32]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 7452,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1390663849"
+            },
+            {
+              "id": "box-id-1720948209",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 338,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/figure[10]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 7593,
+              "mapping": "unknown",
+              "customBlockName": "aiunknown-59rzfl-1720948209"
+            },
+            {
+              "id": "box-id-1382062868",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 672,
+              "height": 29,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/article[1]/div[4]/h1[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 304,
+              "y": 7931,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-1382062868"
+            },
+            {
+              "id": "box-id-429108860",
+              "color": "rgba(0, 255, 0, 1)",
+              "width": 1240,
+              "height": 86,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[1]/h2[1]",
+              "childrenXpaths": null,
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "x": 20,
+              "y": 8170,
+              "mapping": "defaultContent",
+              "customBlockName": "aidefaultContent-59rzfl-429108860"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

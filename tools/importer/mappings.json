@@ -1,0 +1,16 @@
+{
+  "mappings": [
+    {
+      "path": "tools/importer/mappings/nav.json"
+    },
+    {
+      "path": "tools/importer/mappings/footer.json"
+    },
+    {
+      "path": "tools/importer/mappings/index.json"
+    },
+    {
+      "path": "tools/importer/mappings/posts/assessing-itp-s-effect-on-adobe-analytics-data.json"
+    }
+  ]
+}
