@@ -48,7 +48,7 @@
 }
 
 /* Ensure responsive behavior */
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div {
     flex-direction: column; /* Stack cards vertically */
   }
