@@ -1,0 +1,61 @@
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 {
+  display: flex;
+  flex-wrap: wrap; /* Allow rows to wrap for responsiveness */
+  gap: 16px; /* Adjust spacing between rows and columns */
+  justify-content: center; /* Center the entire block horizontally */
+  margin: 0 auto; /* Center the block within the viewport */
+  padding: 20px; /* Add padding around the block */
+}
+
+.aicolumns-drnc0j-1452861192 > div {
+  display: flex;
+  flex-direction: row; /* Position child divs side by side */
+  flex-wrap: wrap; /* Allow wrapping for nested items */
+  gap: 16px; /* Space between columns inside rows */
+  justify-content: space-between; /* Ensure even spacing between items */
+  width: 100%; /* Ensure rows span the full width of the block */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div {
+  flex: 1 1 calc(46% - 16px); /* Slightly narrower cards for balanced spacing */
+  display: flex;
+  flex-direction: column; /* Stack internal card content vertically */
+  background-color: var(--background-color);
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for card styling */
+  padding: 14px; /* Adjust internal padding for a more compact layout */
+  max-width: 460px; /* Limit the maximum width of each card */
+}
+
+.aicolumns-drnc0j-1452861192 img {
+  width: 100%; /* Ensure all images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* Remove unintended styling */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div p:nth-of-type(4),
+.aicolumns-drnc0j-1452861192 > div > div p:nth-of-type(5) {
+  display: flex;
+  align-items: center; /* Align the profile image and text inline */
+  gap: 8px; /* Adjust spacing between the profile image and text */
+  margin: 0; /* Remove any unnecessary margins */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div p:nth-of-type(4) picture img {
+  width: 54px; /* Increase size of profile image */
+  height: 54px;
+  border-radius: 50%; /* Circular profile image */
+  object-fit: cover; /* Ensure proper proportions for the image */
+}
+
+@media (max-width: 768px) {
+  .aicolumns-drnc0j-1452861192 > div > div {
+    flex: 1 1 100%; /* Full-width cards for smaller screens */
+  }
+
+  .aicolumns-drnc0j-1452861192 > div {
+    flex-direction: column; /* Stack rows vertically on smaller screens */
+  }
+}
