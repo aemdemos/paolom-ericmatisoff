@@ -1,0 +1,70 @@
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 {
+  display: flex; /* Use flexbox for overall layout */
+  flex-wrap: wrap; /* Allow wrapping for rows */
+  gap: 32px; /* Consistent spacing between rows and columns */
+  width: 100%; /* Ensure the block spans the full width */
+}
+
+.aicolumns-drnc0j-1452861192 > div {
+  display: flex;
+  flex-direction: row; /* Ensure items in each row are side by side */
+  flex-wrap: wrap; /* Allow wrapping for nested elements */
+  gap: 24px; /* Add consistent spacing between cards */
+  width: 100%; /* Ensure rows span the full width */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div {
+  flex: 1 1 calc(50% - 24px); /* Each card takes up 50% of the width minus spacing */
+  display: flex;
+  flex-direction: column; /* Stack card content vertically inside each card */
+  justify-content: flex-start; /* Align content to the top */
+  align-items: flex-start; /* Align items to the left */
+  box-sizing: border-box; /* Ensure padding does not affect width */
+  padding: 24px; /* Add internal spacing for better layout */
+  gap: 16px; /* Add consistent spacing between internal elements */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div h3 {
+  margin: 0 0 16px; /* Add consistent spacing below the title */
+  font-size: 1.25rem; /* Adjust font size for titles */
+  text-align: left; /* Ensure titles are aligned to the left */
+  white-space: normal; /* Allow proper text wrapping */
+  word-wrap: break-word; /* Break long words if necessary */
+  width: 100%; /* Allow the title to take up the full width of the card */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div > p {
+  margin: 8px 0; /* Add consistent spacing between paragraphs */
+  line-height: 1.6; /* Improve readability */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div > p:nth-of-type(3) {
+  margin-bottom: 24px; /* Increase spacing below the description */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div > p:last-of-type {
+  display: flex;
+  flex-direction: row; /* Ensure avatar and name are side by side */
+  align-items: center; /* Align avatar and name vertically */
+  gap: 8px; /* Add consistent spacing between avatar and name */
+  margin-top: auto; /* Push the author section to the bottom of the card */
+}
+
+.aicolumns-drnc0j-1452861192 > div > div > p:last-of-type img {
+  width: 48px; /* Set avatar image width */
+  height: 48px; /* Set avatar image height */
+  border-radius: 50%; /* Make the avatar circular */
+  object-fit: cover; /* Ensure avatar image scales properly */
+}
+
+@media (max-width: 899px) {
+  .aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+
+  .aicolumns-drnc0j-1452861192 > div > div {
+    flex: 1 1 100%; /* Cards take full width on smaller screens */
+    margin-bottom: 32px; /* Add spacing between stacked cards */
+  }
+}
