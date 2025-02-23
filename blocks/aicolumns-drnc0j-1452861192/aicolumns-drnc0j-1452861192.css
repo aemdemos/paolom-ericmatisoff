@@ -8,8 +8,7 @@
 
 .aicolumns-drnc0j-1452861192 > div {
   display: flex;
-  flex-direction: row; /* Ensures rows are side by side */
-  flex-wrap: wrap; /* Allows wrapping of nested elements on smaller screens */
+  flex-flow: row wrap; /* Ensures rows are side by side */ /* Allows wrapping of nested elements on smaller screens */
   gap: 24px; /* Adds consistent spacing between cards */
   width: 100%; /* Ensures rows span the full width */
 }
@@ -30,7 +29,7 @@
 }
 
 .aicolumns-drnc0j-1452861192 > div > div > h3 {
-  margin: 0 0 12px 0; /* Adds consistent spacing below the title */
+  margin: 0 0 12px; /* Adds consistent spacing below the title */
   font-size: 1.25rem; /* Adjusts font size for titles */
   text-align: left; /* Ensures titles are aligned to the left */
 }
@@ -55,7 +54,7 @@
   object-fit: cover; /* Ensures avatar image scales properly */
 }
 
-@media (max-width: 899px) {
+@media (width <= 899px) {
   .aicolumns-drnc0j-1452861192 > div {
     flex-direction: column; /* Stacks rows vertically on smaller screens */
   }
