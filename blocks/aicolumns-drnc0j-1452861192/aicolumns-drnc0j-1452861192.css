@@ -1,0 +1,59 @@
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap into rows */
+  gap: 24px; /* Space between rows and cards */
+  justify-content: space-between; /* Distribute cards evenly in rows */
+}
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div {
+  display: flex;
+  flex-direction: row; /* Arrange two cards side by side */
+  gap: 24px; /* Space between cards in the same row */
+  width: 100%; /* Ensure rows take up the full width */
+}
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div > div {
+  display: flex;
+  flex-direction: column; /* Stack content vertically inside each card */
+  align-items: flex-start; /* Align items to the left */
+  text-align: left; /* Ensure text alignment is left */
+  background-color: var(--background-color);
+  padding: 16px; /* Add padding inside the cards */
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  flex: 1 1 calc(50% - 12px); /* Ensure cards take up half the row's width */
+}
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 img {
+  width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 16px; /* Add spacing below images */
+}
+
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 .button {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--background-color);
+  background-color: var(--link-color);
+  padding: 10px 20px;
+  border-radius: 24px;
+  margin-bottom: 16px;
+  text-align: left; /* Align buttons to the left */
+}
+
+/* Add consistent spacing between elements inside cards */
+.aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div > div > p {
+  margin: 8px 0; /* Add consistent spacing between paragraphs */
+}
+
+/* Ensure responsive behavior */
+@media (width <= 900px) {
+  .aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div {
+    flex-direction: column; /* Stack cards vertically */
+  }
+
+  .aicolumns-drnc0j-1452861192-wrapper > .aicolumns-drnc0j-1452861192 > div > div {
+    flex: 1 1 100%; /* Ensure cards take full width on small screens */
+  }
+}
