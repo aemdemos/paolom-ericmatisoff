@@ -1,0 +1,164 @@
+.ai-header-home {
+  margin-bottom: 48px;
+}
+
+.ai-header-home > div > div {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.ai-header-home h1 {
+  letter-spacing: -4px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 120px;
+}
+
+.ai-hero-drnc0j-61288686 h3 {
+  margin: 0;
+  text-wrap: balance;
+  font-weight: 400;
+}
+
+.ai-hero-drnc0j-61288686 h3 a:any-link {
+  color: #000;
+}
+
+.ai-hero-drnc0j-61288686 > div > div {
+  display: grid;
+  grid-template-areas:
+    "picture picture picture"
+    "title text text"
+    "date author-picture author-name";
+  grid-template-rows: 815px 100px 100px;
+  grid-template-columns: 732px 65px 632px;
+  align-items: center;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(1) {
+  grid-area: picture;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > h3:nth-child(2) {
+  grid-area: title;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(3) {
+  grid-area: date;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(4) {
+  grid-area: text;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(5) {
+  grid-area: author-picture;
+}
+
+.block > div > div > p:nth-last-child(2) img {
+  border-radius: 50%;
+  width: 48px;
+  height: auto;
+}
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(6),
+.aicolumns-drnc0j-1452861192 > div > div > p:nth-child(6){
+  grid-area: author-name;
+  font-weight: bold;
+}
+
+
+.ai-hero-drnc0j-61288686 > div > div > p:nth-child(1) > picture > img {
+  width: 100%;
+}
+
+.more-stories-title h2 {
+  font-weight: 700;
+}
+
+.block > div > div > p:nth-child(1) > picture > img {
+  transition: box-shadow 0.3s ease;
+}
+
+.block > div > div > p:nth-child(1) > picture > img:hover {
+  box-shadow: 0 0 12px 10px #eee;
+}
+
+div.aicolumns-drnc0j-1452861192 > div > div {
+  gap: 0;
+}
+
+.aicolumns-drnc0j-1452861192 > div > div > p:nth-child(1) img {
+  height: 342px;
+  width: auto;
+}
+
+div.aicolumns-drnc0j-1452861192 > div > div h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.aicolumns-drnc0j-1452861192 h3 a:any-link {
+  color: #000;
+}
+
+.article-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.article-header h2 a:any-link {
+  color: #000;
+}
+
+.article-title h1 {
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: -4px;
+  line-height: 100px;
+}
+
+.article-author > div > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+}
+
+.article-image img {
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+}
+
+.article-image-wrapper + .default-content-wrapper {
+  max-width: 42rem;
+}
+
+
+.default-content-wrapper h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.default-content-wrapper h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.default-content-wrapper h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+picture + em {
+  font-size: 14px;
+  font-style: italic;
+  color: #aaa;
+}
+
+body > header {
+  display: none;
+}
