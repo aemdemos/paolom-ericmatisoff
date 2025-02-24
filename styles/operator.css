@@ -160,6 +160,7 @@ picture + em {
   color: #aaa;
 }
 
-body > header {
+body > header,
+body > footer {
   display: none;
 }
